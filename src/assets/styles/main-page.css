@@ -1,0 +1,115 @@
+
+.project-title {
+    text-align: justify;
+    text-align-last: right;
+    -moz-text-align-last: right;
+    font-size: 25px;
+    font-weight: bold;
+    background: linear-gradient(to right, #fffba4 80%, #4e079f);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.main-container {
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+.main-vertical-left, .main-vertical-right {
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 20%;
+    padding: 50px;
+    width: 5%;
+    height: 30%;
+    object-fit: cover;
+    flex: 1;
+}
+
+.main-vertical-left {
+    flex-direction: column;
+}
+
+.main-vertical-center {
+    flex: 28;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.center-top {
+    display: flex;
+}
+
+.team {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    white-space: pre-wrap;
+    margin: 20px 0 0 0;
+}
+
+.center-center {
+
+}
+
+.site_purpose {
+    font-size: 60px;
+    font-weight: bold;
+    background: linear-gradient(to right, #657aff,#ffffff 20%, #ffffff 50%);
+    color: transparent;
+    -webkit-background-clip: text;
+    margin: 0 0 0 0;
+}
+.center-top-images {
+    justify-content: space-around;
+    height: 90px;
+}
+
+.award1, .award2, .award3 {
+    margin-left: 10px;
+    width: 145px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.copyright, .journal {
+    margin-left: 10px;
+    width: 205px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.center-center {
+    align-items: center;
+}
+
+.egg {
+    width: 120px;
+    height: 120px;
+    padding: 80px;
+}
+
+.team_photo {
+    width: 770px;
+    height: 270px;
+}
+
+.center-bottom-top, .site_humor {
+    width: 400px;
+    height: 76px;
+}
+
+.center-bottom-top {
+
+}
+
+.site_humor {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    white-space: pre;
+
+}
+
+
